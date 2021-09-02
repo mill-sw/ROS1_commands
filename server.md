@@ -9,7 +9,8 @@
 ### lidar
     cd ydlidar_ws
     catkin_make
-    source ./devel/setup.sh
+    source ./devel/setup.zsh
+    #source ./devel/setup.sh
     roslaunch ydlidar_ros_driver X4.launch
 ### depth-ai camera
     source /opt/ros/melodic/setup.zsh
