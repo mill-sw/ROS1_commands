@@ -11,4 +11,4 @@
     roslaunch ydlidar_ros_driver X4.launch
 ### depth-ai camera
     source /opt/ros/melodic/setup.zsh
-    rosrun rosserial_python serial_node.py    
+    rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=57600
