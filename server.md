@@ -4,6 +4,8 @@
     rosrun rqt_graph rqt_graph 
 ### check lists
     rostopic list
+### listen raw data
+    rostopic echo <topic name: (ie: /chatter)>
 ### lidar
     cd ydlidar_ws
     catkin_make
