@@ -6,6 +6,9 @@
     rostopic list
 ### listen raw data
     rostopic echo {/topic name}
+### visualize data
+    rviz
+    rosrun rqt_image_view rqt_image_view
 ### lidar
     source ydlidar_ws/devel/setup.zsh
     cd ydlidar_ws
