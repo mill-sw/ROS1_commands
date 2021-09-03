@@ -5,7 +5,7 @@
 ### check lists
     rostopic list
 ### listen raw data
-    rostopic echo <topic name: (ie: /chatter)>
+    rostopic echo {/topic name}
 ### lidar
     source ydlidar_ws/devel/setup.zsh
     cd ydlidar_ws
