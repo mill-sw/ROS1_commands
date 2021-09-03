@@ -7,13 +7,14 @@
 ### listen raw data
     rostopic echo <topic name: (ie: /chatter)>
 ### lidar
+    source ydlidar_ws/devel/setup.zsh
     cd ydlidar_ws
     catkin_make
     source ./devel/setup.zsh
     #source ./devel/setup.sh
     roslaunch ydlidar_ros_driver X4.launch
 ### depth-ai camera
-    source /opt/ros/melodic/setup.zsh
+    source depthai_ws/devel/setup.zsh
     roslaunch depthai_examples stereo_node.launch
 ### arduino
     sudo chmod 666 /dev/ttyACM0
