@@ -8,8 +8,8 @@
 > ## add to CMakelist.txt
 > include_directories(include ${catkin_INCLUDE_DIRS})
 >
-> add_executable(talker src/<package>.cpp)
-> target_link_libraries(<package> ${catkin_LIBRARIES})
+> add_executable(talker src/<package>.cpp)  
+> target_link_libraries(<package> ${catkin_LIBRARIES})  
 > add_dependencies(<package> <package_dir_name>_generate_messages_cpp)
 
 ### running new packages
