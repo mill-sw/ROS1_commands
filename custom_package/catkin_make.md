@@ -9,7 +9,7 @@
 ## edit cmake
     nano <package_dir_name>/CMakeLists.txt
 
-> #### add to CMakelist.txt
+#### add to CMakelist.txt
 > include_directories(include ${catkin_INCLUDE_DIRS})
 >
 > add_executable(talker src/<package>.cpp)  
