@@ -1,4 +1,4 @@
-## there is 2 ways to control MCU(arduino)
+# there is 2 ways to control MCU(arduino)
 
 ## 1. run code in mcu(cpp)
 ### run arduino code
