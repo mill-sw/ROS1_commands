@@ -9,12 +9,19 @@
 ## edit cmake
     nano <package_dir_name>/CMakeLists.txt
 
-#### add to CMakelist.txt
+#### add to CMakelist.txt(cpp)
 > include_directories(include ${catkin_INCLUDE_DIRS})
 >
 > add_executable(talker src/<package>.cpp)  
 > target_link_libraries(<package> ${catkin_LIBRARIES})  
 > add_dependencies(<package> <package_dir_name>_generate_messages_cpp)
+
+#### add to CMakelist.txt(cpp)
+> catkin_install_python(PROGRAMS
+> teleop_twist_keyboard.py
+> DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+> )
+    
 
 ## running new packages
     cd <ws_name>
