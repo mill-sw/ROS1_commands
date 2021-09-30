@@ -16,7 +16,8 @@
 > target_link_libraries(<package> ${catkin_LIBRARIES})  
 > add_dependencies(<package> <package_dir_name>_generate_messages_cpp)
 
-#### add to CMakelist.txt(cpp)
+#### add to CMakelist.txt(python)
+    
 > catkin_install_python(PROGRAMS
 > teleop_twist_keyboard.py
 > DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
