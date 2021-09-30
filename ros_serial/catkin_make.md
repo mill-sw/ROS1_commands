@@ -4,7 +4,7 @@
     catkin_create_pkg <package_dir_name> <package_type:ie.std_msgs> <package_language:ie:roscpp>
 
 ## copy custom_packages to ws
-    cp -r <package_location>/ ~/<ws_name>/src/<package_dir_name>
+    cp -r <package_location> ~/<ws_name>/src/<package_dir_name>
     
 ## edit cmake
     nano <package_dir_name>/CMakeLists.txt
